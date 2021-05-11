@@ -1,0 +1,76 @@
+Flexboxes:These are advanced concepts to CSS grids.
+          we have to use division as parent
+	  we can implement childs in it.
+CSS Borders:
+solid,Dotted,Groove,Double,ridge,inset,outset,hidden
+    flex properties:
+         display
+         direction:row,row-reverse,column,column-reverse
+    flex-wrap:
+           justify-content
+
+Media queries along with meta information
+syntax:media only screen and(min width) and (max width)
+Responsive web-design:
+      our website ability to trigger in any kind of screen resolution.
+
+hardware pixels(HP)[actual measurements] and device independeunt pixels(Dips)[the viewport size]
+
+difference between px and %:
+     width-->1300px-->100%
+     child-->30%---->390px
+    
+     child--->300px--->
+
+
+* Lists in HTML:
+	1.Unordered list
+		<ul></ul>
+	    * List Types:
+		
+	2.Ordered list
+	    *<ol></ol>,<li></li>
+	    *Types
+               1.A,B,C...
+	       2.a,b,c,d...
+	       3.I,II,III...
+	       4.i,ii,iii.....
+	    * start="11"
+	3.Definition List
+		<dl></dl>,<dt></dt>,<dd></dd>
+
+
+space between the two cells is called cellspacing
+
+space inside the cll is called cellpadding
+
+
+merge the  columns---->colspan
+merge the rows----->rowspan
+
+JAVASCRIPT:
+
+*variables
+*popup windows
+	*Alert
+	*Confirm
+	*Prompt
+*Console Statements
+	*Log
+	*Warm
+	*info and
+	*Error
+*Document object model:
+	*Document.write()
+	*document.getElementByid()-->single value
+	*document.getelementByClassName("className")
+	*document.getElementByTagName("body")
+	*documnent.querySelector(".className")
+	*document.querySelectorAll()
+* server:
+	*static server
+	     The scope of this server is exists with in the directory structure
+	     Examples:Npm server,web server for chrome(200OK servre)
+	*Dynamic server
+	    we can make communication between diffenrent kinds of server(php server,mysql server)by using these kind of servers
+
