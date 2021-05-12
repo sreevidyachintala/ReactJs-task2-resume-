@@ -3,7 +3,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	background-color: pink;
+	/*background-color: pink;*/
 }
 
 .child{
@@ -70,10 +70,13 @@ thead{
 tbody tr:nth-child{
 	background-color: #ddd;
 }
-.table.responsive{
+.edu{
 	overflow-x: auto;
 
 }
+/*.edu{
+	font-size: 18px;
+}*/
 .child2 span{
 	border-radius: 18px;
 	background-color: #ddd;
@@ -84,7 +87,7 @@ tbody tr:nth-child{
 }
 /*small scale device*/
 @media only screen and (min-width: 320px) and (max-width: 480px){
-
+	
 	.child{
 		width: 90%;
 		border:1px solid #ddd;
@@ -94,6 +97,7 @@ tbody tr:nth-child{
 		box-shadow: 0px 8px 8px -8px #000;
 		border-radius: 10px 0px;
 		height: 480px;
+
 	}
 	.child2{
 	width: 90%;
@@ -108,7 +112,7 @@ tbody tr:nth-child{
 /*medium scale device*/
 @media only screen and (min-width: 481px) and (max-width: 768px){
 	.child{
-		width: 90%;
+		width: 80%;
 		border:1px solid #ddd;
 		padding: 1%;
 		margin: 1%;
